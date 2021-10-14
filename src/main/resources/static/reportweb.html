@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>课程结业报告</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="./css/YOASOBI.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+  <!-- start your project here -->
+<!--Main Navigation-->
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  ">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">WEB应用基础课程结业报告
+      </a>
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">主页
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          
+        </ul>
+        <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+  </header>
+<!--Main Navigation-->
+
+<!--Main container-->
+<div class="container">
+    <!--Grid row 1-->
+    <div class="row">
+      <!--Grid column 1-->
+      <div class="col-md-7">
+        <div class="view overlay z-depth-1-half">
+          <img src="./img/simpleweb.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-light"></div>
+        </div>
+      </div>
+      <!--Grid column-->
+      <!--Grid column 2-->
+      <div class="col-md-5">
+        <h2 id="font">YOASOBI组合介绍网站</h2>
+        <hr>
+        <p id="font">关于一个改编小说，唱出小说中的内涵，分享小说故事的组合的介绍网站。可以了解组合的相关信息，并且可以观看音乐MV，或者赏析该组合的其他音乐</p>
+        <a href="./index.html" class="btn btn-outline-light">前往浏览</a>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+    <hr>
+    <!--Grid row 2-->
+    <div class="row">
+      <!--Grid column 1-->
+      <div class="col-lg-4 col-md-12">
+
+        <!--Card-->
+       
+    
+        
+    
+          <!--Card content-->
+         
+            <!--Title-->
+            <h4 id="font">开发过程</h4>
+            <!--Text-->
+            <pre id="font">
+             1.思考网站该拥有的功能
+             2.选择合适的模板
+             3.对功能划分区块并编写对应功能的html文档
+             4.对html文档添加样式文件
+             5.挂载网站至github
+             6.对网站做最后的测试和调试
+            </pre>
+            
+          
+    
+       
+      <!--/.Card-->
+    
+      </div>
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12">
+
+       
+          
+    
+       
+      <!--/.Card-->
+    
+      </div>
+      <!--Grid column 2-->
+      <div class="col-lg-6 col-md-6">
+       <!--Card-->
+    <div class="card card text-white bg-dark">
+  
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">功能介绍</h4>
+          <!--Text-->
+          <pre class="card-text">
+1.MV播放   实现在用户载入网页时开始预载视频，实现视频播放。
+2.音乐播放 播放组合的其他音乐。
+3.信息展示 组合的相关信息和资料展示。
+</pre>
+        </div>
+  
+      </div>
+      <!--/.Card-->
+  
+    </div>
+      <!--Grid column-->
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+
+            <!--Card-->
+           
+        
+            
+        
+              <!--Card content-->
+             
+                <!--Title-->
+                <h4 id="font">
+            功能实现</h4>
+                <!--Text-->
+                <pre id="font">
+视频播放功能
+                </pre>
+                <video width="100%" controls>
+                    <source src="./video/yoru1.mp4" type="video/mp4">
+                    
+                  您的浏览器不支持Video标签。
+                  </video>    
+              
+        
+           
+          <!--/.Card-->
+        
+          </div> 
+          <div class="col-lg-6 col-md-12">
+
+            <!--Card-->
+           
+        
+            
+        
+              <!--Card content-->
+             
+                <!--Title-->
+                <h4 id="font">
+            功能实现方式</h4>
+                <!--Text-->
+                <pre id="font">
+&lt;video&gt;元素支持三种视频格式:MP4,WebM,和Ogg:                    
+
+HTML5 &lt;video&gt;和&lt;audio&gt;元素同样拥有方法、属性和事件。
+
+&lt;video&gt;和&lt;audio&gt;元素的方法、属性和事件可以使用JavaScript进行控制.
+
+其中的方法用于播放、暂停以及加载等。其中的属性（比如时长、音量等）可以被读取或设置。
+
+
+左侧视频HTML代码如下
+&lt;video width="100%" controls&gt;
+ &lt;source src="./video/293298061_nb2-1-80~1.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+                </pre>
+                
+              
+        
+           
+          <!--/.Card-->
+        
+          </div>     
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-8 col-md-12">
+
+
+                    <!--Card-->
+           
+        
+            
+        
+              <!--Card content-->
+             
+                <!--Title-->
+                <h4 id="font">
+                    功能实现方式</h4>
+                        <!--Text-->
+                        <pre id="font">
+HTML5&lt;audio&gt;元素是一个HTML5元素,在HTML4中是非法的,但在所有浏览器中都有效。
+        
+        
+右侧音乐HTML代码如下
+&lt;audio controls&gt;
+&lt;source src="./video/YOASOBI - 群青.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+                        </pre>
+                        
+                      
+                
+                   
+                  <!--/.Card-->
+          </div> 
+          <div class="col-lg-4 col-md-12">
+
+            <!--Card-->
+           
+        
+            
+        
+              <!--Card content-->
+             
+               
+                <!--Text-->
+                <pre id="font">
+音乐播放功能
+                 </pre>
+                 <audio controls>
+                 <source src="./video/YOASOBI - 群青.mp3" type="audio/mpeg">
+                您的浏览器不支持 audio 元素。
+                </audio>
+                                  
+                            
+                               
+                <!--/.Card-->
+        
+          </div>     
+    </div>
+    <!--Grid row-->
+    <hr>
+    <div class="row">
+      <div class="col-lg-8 col-md-12">  
+    <div class="card card text-white bg-dark">
+  
+      <!--Card content-->
+      <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">所遇问题</h4>
+        <!--Text-->
+        <pre class="card-text">
+1.MV播放   
+托管MV源文件时，由于github上传文件有大小限制，不得超过25mb。导致视频源文件上传不了。
+解决方式:1.直接压缩视频文件，使其小于25mb过后，直接上传github。2.采用Git LFS上传。
+第一种方法比较简单，但是缺点十分明显，就是视频如果采取全屏播放会特别模糊，画质压缩严重。
+第二种方式更加复杂，但是可以大幅提升播放视频的长度和清晰度。采用第二种方式出现了许多问
+题，无法完整解决。故采用的第一种方式。
+2.托管之后图片/视频缺失
+将网站的相关源文件托管至github上过后，打开托管后的网页，图片显示和视频加载异常。
+问题原因:由于上传至github后，自有库的文件和本地文件的格式编排不一样，导致html文档中的本
+地源文件链接不同，读取出错。故无法显示文件。
+解决方式：正确修改源文件的链接，即可显示图片或者视频。
+3.网页图片视频加载任然较为缓慢
+当加载的全屏图片较大，或者文件较多时，网站的加载速度较为缓慢。
+</pre>
+      </div>
+
+    </div>
+    <!--/.Card-->
+  </div>
+  <div class="col-lg-4 col-md-12">  
+    <div class="card card text-white bg-dark">
+  
+      <!--Card content-->
+      <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">其他</h4>
+        <!--Text-->
+        <pre class="card-text">
+1.网页展示html源代码
+使用&lt;pre&gt;标签时，在其中输入html标签时，无法
+显示符号"&lt;"和"&gt;"而是任然当作html标签并实现
+其功能，可以采用& lt;和& gt;分别表示"&lt;"和
+"&gt;"。以此网页这可以直接显示源码。
+2.尝试制作网页两侧有漂浮的樱花特效
+  采取动态背景（未实现）
+3.鼠标指针更改
+通过在css文件中添加代码
+body{
+cursor:url(images/default.cur),default;
+}
+实现对网页的鼠标指针样式修改
+</pre>
+      </div>
+
+    </div>
+    <!--/.Card-->
+  </div>
+  </div>
+  </div>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class=" bg-dark page-footer font-small  pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-9 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase text-center">总结</h5>
+        <pre id="font">
+          网站的建设需要的不仅仅是代码的复制和粘贴,完成一个网页的制作需要很多的步骤。从网页的最初功能设计，到最后的
+      网站挂载与最终调试，都需要一步步的完成。HTML和CSS都是入门简单，但用好真的很难。简单在于他们的语法较于其他的编
+      程语言更好理解，而困难难在他们的用法多种多样，尤其是CSS。其决定HTML的样式，样式并不是一定的，不同样式的组合与
+      搭配会使得网页整体更加美观。网页的布局和结构是重点和难点，如何排版使得整个网站不显杂糅。
+          网站挂载到托管网站，托管网站有不同的托管方式。上传网站的源文件和相关的资源文件后，文件布局和本地一样时，
+      上传后不一定会与本地Live Server所展示的网站一样。所以最后的挂载后的调试，即以网站的浏览者的身份，去查看网站是
+      否与一开始的设想所一致，是十分重要的。</pre>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">参考资料</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://qige.io/web/web.html#html">棋歌教学网</a>
+          </li>
+          <li>
+            <a href="https://mdbootstrap.com/">MDB</a>
+          </li>
+          <li>
+            <a href="https://www.runoob.com/html/html-tutorial.html">菜鸟教程</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!--Footer-->
+<!-- end your project here -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>

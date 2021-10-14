@@ -1,0 +1,16 @@
+
+
+body {
+	margin: 10px auto;
+	padding: 22px 10;
+	width: 1210px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+
+	background:url("./bgp.jpg") no-repeat center center fixed;
+}
+
+#font{
+color: aliceblue;
+
+}
+
